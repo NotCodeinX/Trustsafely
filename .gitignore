@@ -1,7 +1,22 @@
 .env
+.env.local
 node_modules
 .DS_Store
 .idea
 .vscode
 artifacts
 cache
+
+# Environment variables (sensitive data)
+REOWN_ID
+REOWN_PROJECT_ID
+NEXT_PUBLIC_REOWN_PROJECT_ID
+PRIVATE_KEY
+
+# Frontend
+frontend/.next
+frontend/node_modules
+frontend/.env.local
+frontend/.env*.local
+frontend/out
+frontend/dist
